@@ -1,0 +1,83 @@
+{
+  "guildId": "1485689278141825085",
+  "setupChannelId": "1497675755407147188",
+  "commandAccessRoleIds": [
+    "1497676232349978674"
+  ],
+  "roleId": "1485705835018715318",
+  "logChannelId": "1497675781319426242",
+  "setupMessage": "กดปุ่มด้านล่างเพื่อเริ่มขั้นตอนการขอ Whitelist",
+  "setupCard": {
+    "enabled": true,
+    "title": "ระบบรับ Whitelist",
+    "description": "กดปุ่มด้านล่างเพื่อเริ่มกรอกข้อมูล Whitelist",
+    "color": "#5865F2",
+    "authorName": "Whitelist System",
+    "authorIconUrl": "https://media.discordapp.net/attachments/1492916934109560876/1497441056071880764/IMG_7943.jpg?ex=69ee30e8&is=69ecdf68&hm=1be724d0fb8ad3069962ad0ffc547b06ceb8426c6a89b3a90489523d3207eac9&=&format=webp&width=1008&height=1008",
+    "thumbnailUrl": "https://media.discordapp.net/attachments/1492916934109560876/1497441056071880764/IMG_7943.jpg?ex=69ee30e8&is=69ecdf68&hm=1be724d0fb8ad3069962ad0ffc547b06ceb8426c6a89b3a90489523d3207eac9&=&format=webp&width=1008&height=1008",
+    "fields": [
+      {
+        "name": "เงื่อนไข",
+        "value": "กรอกข้อมูลให้ครบถ้วนและถูกต้อง",
+        "inline": false
+      }
+    ],
+    "media": {
+      "url": "https://media.discordapp.net/attachments/1492916934109560876/1497441056071880764/IMG_7943.jpg?ex=69ee30e8&is=69ecdf68&hm=1be724d0fb8ad3069962ad0ffc547b06ceb8426c6a89b3a90489523d3207eac9&=&format=webp&width=1008&height=1008",
+      "type": "auto",
+      "durationSeconds": 0
+    }
+  },
+  "successMessage": "✅ ส่งข้อมูลเรียบร้อยแล้ว! คุณได้รับยศ Whitelist แล้ว",
+  "errorMessage": "❌ เกิดข้อผิดพลาดในการประมวลผล กรุณาติดต่อแอดมิน",
+  "successCard": {
+    "enabled": true,
+    "title": "Whitelist สำเร็จ",
+    "description": "✅ ส่งข้อมูลเรียบร้อยแล้ว! คุณได้รับยศ Whitelist แล้ว",
+    "color": "#2ECC71",
+    "media": {
+      "url": "https://giffiles.alphacoders.com/220/220709.gif",
+      "type": "auto",
+      "durationSeconds": 0
+    }
+  },
+  "button": {
+    "label": "รับยศ Whitelist",
+    "style": "Primary"
+  },
+  "modal": {
+    "title": "กรอกข้อมูล Whitelist",
+    "fields": [
+      {
+        "id": "ic_name",
+        "label": "ชื่อ (IC)",
+        "placeholder": "ระบุชื่อของคุณ",
+        "style": "Short"
+      },
+      {
+        "id": "ic_lastname",
+        "label": "นามสกุล (IC)",
+        "placeholder": "ระบุนามสกุลของคุณ",
+        "style": "Short"
+      },
+      {
+        "id": "gender",
+        "label": "เพศ",
+        "placeholder": "ชาย / หญิง / อื่นๆ",
+        "style": "Short"
+      },
+      {
+        "id": "age",
+        "label": "อายุ",
+        "placeholder": "ระบุอายุของคุณ",
+        "style": "Short"
+      },
+      {
+        "id": "steam_hex",
+        "label": "Steam Hex ID",
+        "placeholder": "ระบุ Hex ID ของคุณ",
+        "style": "Short"
+      }
+    ]
+  }
+}

@@ -1,17 +1,13 @@
 {
-  "name": "discord_bot",
+  "name": "discord-whitelist-bot",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "discord.js": "^14.26.3",
-    "dotenv": "^17.4.2"
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.2"
   }
 }

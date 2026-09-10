@@ -256,4 +256,4 @@ Applicants must meet these validation rules:
 
 ## License
 
-This project is private unless a license is added by the project owner.
+This is a public project; resale is prohibited. Please contact the developer if any errors occur.
